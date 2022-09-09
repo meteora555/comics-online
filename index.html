@@ -7,24 +7,67 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="build/css/style.min.css">
    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
-   <title>Comics online</title>
+   <title>Comics only</title>
 </head>
 
 <body>
-   <div class="wrapper">
-      <header class="header">
-         <container class="container">
-            <div class="header__top">
-               <a class="header__top-link" href="/">
-                  <img class="header__top-img" src="/src/" alt="header img">
-               </a>
+   <header class="header">
+      <div class="header__top">
+         <a class="header__top-link" href="/">
+            <img class="header__top-img" src="./src/assets/images/banner.png" alt="header img">
+         </a>
+      </div>
+      <div class="header__wrapper">
+         <div class="header__logo">
+            <a href="/" class="header__logo-link">
+               <img class="header__logo-img" src="./src/assets/images/logo.png" alt="logo"></img>
+            </a>
+         </div>
+         <div class="nav">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="/" class="nav__item-link">
+                     <img class="nav__list-img" src="./src/assets/images/icons/ok.svg" alt="check">
+                     Прочитано
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="/" class="nav__item-link">
+                     <img class="nav__list-img" src="./src/assets/images/icons/bookmark.svg" alt="note">
+                     Сейчас читают
+                  </a>
+               </li>
+               <li class="nav__item">
+                  <a href="/" class="nav__item-link">
+                     <img class="nav__list-img" src="./src/assets/images/icons/catalog.svg" alt="book">
+                     Каталог
+                  </a>
+               </li>
+            </ul>
+            <div class="header__search">
+               <input class="header__search-input" type="text" placeholder="Поиск...">
+               <button class="header__search-button">
+                  <img class="header__search-button-img" src="./src/assets/images/icons/search.svg" alt="search">
+               </button>
             </div>
+         </div>
+         <div class="header__list">
+            <p class="header__list-title">Отложено для чтения</p>
+            <button class="header__list-button">
+               <span>
+                  <b>0</b> Комиксов
+               </span>
+            </button>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <div class="main__wrapper">
 
-         </container>
-      </header>
-      <main class="main"></main>
-      <footer class="footer"></footer>
-   </div>
+      </div>
+   </main>
+   <footer class="footer"></footer>
+
 
 
 

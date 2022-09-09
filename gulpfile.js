@@ -181,7 +181,7 @@ gulp.task('watch', () => {
   //Следить за добавлением новых изображений
   gulp.watch('./src/assets/images/**', gulp.series('img-compress'));
   //Следить за файлами со стилями с нужным расширением
-  gulp.watch('./src/aseets/scss/**/*.scss', gulp.series('styles'));
+  gulp.watch('./src/assets/scss/**/*.scss', gulp.series('styles'));
   //Следить за JS файлами
   gulp.watch('./src/js/**/*.js', gulp.series('scripts'));
   //При изменении HTML запустить синхронизацию

@@ -1,0 +1,102 @@
+.header{
+    &__top{
+        img{
+            margin: 0 auto;
+        }
+    }
+    &__wrapper{
+      background-color: $dark-wrapper;
+      display: flex;  
+      justify-content: space-evenly;
+      max-width: 1600px;
+      margin: 0 auto;
+      align-items: center;
+    }
+    &__logo{
+        padding: 10px;
+        max-width: 280px;
+        max-height: 200px;
+        img{
+            width: 160px;
+            height: 50px;
+        }
+        
+    }
+    &__search{
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
+        &-input{
+            border-radius: 10px;
+            background-color: #fff;
+            &::placeholder{
+                padding: 15px;
+                color:black;
+                @extend %main-text;
+            }
+        }
+        &-button{
+            position: absolute;
+            top: 2px;
+            right: 50px;
+            background:none;
+            border:none;
+        }
+        &-button-img{
+            width: 18px;
+            height: 18px;
+        }
+    }
+    &__list{
+        margin-left: 30px;
+        color:#fff;
+        @extend %main-text;
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        &-title{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        &-button{
+            border-radius: 10px;
+            background-color: $blue;
+            &:hover{
+                background-color:$darkblue;
+                span{
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+.nav{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 40px;
+    &__list{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        font-size: 22px;
+        &-img{
+            width: 24px;
+            height: 24px;
+            padding-right: 5px;
+        }
+    }
+    &__item{
+        &-link{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            @extend %main-text;
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+    
+}
