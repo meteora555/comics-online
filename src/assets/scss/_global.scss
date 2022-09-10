@@ -1,6 +1,7 @@
 html,
 body {
 	height: 100%;
+	font-family: 'Nunito', sans-serif;
 }
 
 .wrapper {
@@ -17,10 +18,15 @@ body {
 }
 
 .container{
-  max-width: 1200px;
+  min-width: 675px;
   margin: 0 auto;
   padding: 0 15px;
   
+}
+.conteiner-side{
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 
 

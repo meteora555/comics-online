@@ -1,0 +1,37 @@
+.footer{
+    
+    &__wrapper{
+        padding-top: 30px;
+        background-color: #000000;
+    }
+    &__info{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__about{
+        max-width: 400px;
+        color: #fff;
+        p{
+            padding-top: 15px;
+        }
+    }
+    &__item{
+        padding-top: 10px;
+        a{
+            color:#fff;
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+    &__social-list{
+        align-items: center;
+    }
+    &__social-link{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items:center;
+        width: 130px;
+    }
+}
