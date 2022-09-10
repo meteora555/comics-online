@@ -28,10 +28,14 @@
         align-items: center;
     }
     &__social-link{
+        color: #fff;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items:center;
         width: 130px;
+        &:hover{
+            color: $blue;
+        }
     }
 }
